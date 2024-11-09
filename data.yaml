@@ -1,0 +1,13 @@
+train: /Users/helllomind/github/MahjongRecognition/dataset/train/images
+val: /Users/helllomind/github/MahjongRecognition/dataset/valid/images
+test: /Users/helllomind/github/MahjongRecognition/dataset/test/images
+
+nc: 42
+names: ['bam-1', 'bam-2', 'bam-3', 'bam-4', 'bam-5', 'bam-6', 'bam-7', 'bam-8', 'bam-9', 'char-1', 'char-2', 'char-3', 'char-4', 'char-5', 'char-6', 'char-7', 'char-8', 'char-9', 'dot-1', 'dot-2', 'dot-3', 'dot-4', 'dot-5', 'dot-6', 'dot-7', 'dot-8', 'dot-9', 'flower-1', 'flower-2', 'flower-3', 'flower-4', 'hon-e', 'hon-gd', 'hon-n', 'hon-rd', 'hon-s', 'hon-w', 'hon-wd', 'season-1', 'season-2', 'season-3', 'season-4']
+
+roboflow:
+  workspace: jon-chan-gnsoa
+  project: mahjong-baq4s
+  version: 42
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jon-chan-gnsoa/mahjong-baq4s/dataset/42

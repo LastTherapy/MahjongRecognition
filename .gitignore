@@ -1,3 +1,7 @@
 .venv
 .idea
-data.yaml
+#data.yaml
+
+runs/*
+yolo11n.pt
+result/*
