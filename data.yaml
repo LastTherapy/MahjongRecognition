@@ -1,13 +1,4 @@
-train: /Users/helllomind/github/MahjongRecognition/dataset/train/images
-val: /Users/helllomind/github/MahjongRecognition/dataset/valid/images
-test: /Users/helllomind/github/MahjongRecognition/dataset/test/images
-
-nc: 42
-names: ['bam-1', 'bam-2', 'bam-3', 'bam-4', 'bam-5', 'bam-6', 'bam-7', 'bam-8', 'bam-9', 'char-1', 'char-2', 'char-3', 'char-4', 'char-5', 'char-6', 'char-7', 'char-8', 'char-9', 'dot-1', 'dot-2', 'dot-3', 'dot-4', 'dot-5', 'dot-6', 'dot-7', 'dot-8', 'dot-9', 'flower-1', 'flower-2', 'flower-3', 'flower-4', 'hon-e', 'hon-gd', 'hon-n', 'hon-rd', 'hon-s', 'hon-w', 'hon-wd', 'season-1', 'season-2', 'season-3', 'season-4']
-
-roboflow:
-  workspace: jon-chan-gnsoa
-  project: mahjong-baq4s
-  version: 42
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/jon-chan-gnsoa/mahjong-baq4s/dataset/42
+train: images/train
+val: images/val
+nc: 34
+names: ['man_1', 'man_2', 'man_3', 'man_4', 'man_5', 'man_6', 'man_7', 'man_8', 'man_9', 'pin_1', 'pin_2', 'pin_3', 'pin_4', 'pin_5', 'pin_6', 'pin_7', 'pin_8', 'pin_9', 'noble_east', 'noble_green_dragon', 'noble_north', 'noble_red_dragon', 'noble_south', 'noble_west', 'noble_white_dragon', 'bamboo_1', 'bamboo_2', 'bamboo_3', 'bamboo_4', 'bamboo_5', 'bamboo_6', 'bamboo_7', 'bamboo_8', 'bamboo_9']
